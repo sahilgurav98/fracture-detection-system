@@ -131,7 +131,6 @@ if uploaded_file is not None:
 
     st.image(
         image,
-        use_container_width=True,
         width=400
     )
 
