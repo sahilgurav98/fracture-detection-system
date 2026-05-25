@@ -131,7 +131,8 @@ if uploaded_file is not None:
 
     st.image(
         image,
-        use_container_width=True
+        use_container_width=True,
+        width=400
     )
 
     image_tensor = predict_transform(image)
